@@ -16,6 +16,3 @@ def api():
 
     elif request.method == 'GET':
         return 'API is running'
-
-if __name__ == '__main__':
-    app.run()
